@@ -1,0 +1,64 @@
+@font-face
+{
+	font-family: Beauty;
+	src: url('../font/字酷堂清楷体.ttf');
+}
+
+body{
+	background-color: white;
+	color:black;
+	font-family: Beauty;
+	font-size: 23px;
+}
+
+a{
+	text-decoration: none;
+	color:black;
+}
+
+a.underline:hover{
+	text-decoration: underline;
+}
+
+#banner{
+	font-size: 56px;
+	padding: 15px 30px;
+	margin-bottom: 5px;
+}
+
+#header{
+	padding: 10px 50px 10px 20px;
+	font-size: 23px;
+	text-align: right;
+}
+
+#content{
+	display: flex;
+	justify-content:center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#footer{
+	text-align: center;
+	font-size: 18px; 
+}
+
+li{
+	list-style: none;
+}
+
+.list{
+	font-size: 20px;
+	margin-right: 50px;
+	line-height: 30px;
+}
+
+.placeholder{
+	width:300px;
+	height:300px;
+}
+
+.description{
+	text-align: center;
+}

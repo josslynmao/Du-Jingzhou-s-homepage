@@ -1,0 +1,80 @@
+@font-face
+{
+	font-family: sharp;
+	src: url('../font/方正清刻本悦宋简体.TTF');
+}
+
+body{
+	background-color: black;
+	color: white;
+	font-family: sharp;
+	font-size: 23px;
+}
+
+a{
+	text-decoration: none;
+	color:white;
+}
+
+#banner{
+	font-size: 56px;
+	padding: 15px 30px;
+	margin-bottom: 5px;
+}
+
+#header{
+	padding: 10px 50px 10px 20px;
+	font-size: 23px;
+	text-align: right;
+}
+
+#container{
+
+}
+
+#content{
+	margin-top: 130px;
+	margin-bottom: 200px;
+	display: flex;
+	justify-content: center;
+}
+
+#footer{
+	text-align: center;
+	font-size: 18px; 
+}
+
+.instruction{
+	text-align: center;
+	font-size: 20px;
+	border: 2px solid black;
+	padding: 2px;
+}
+
+.triangleUp{
+	margin-left: 20px;
+	margin-bottom: 20px;
+	width: 0px;
+	height: 0px;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 86.61px solid white;
+
+	transition:3s;
+}
+
+.underline{
+	line-height: 10px;
+	transition: 1s;
+}
+
+div.triangleUp:hover{
+	transform:rotateY(720deg);
+	-moz-transform:rotateY(720deg); /* Firefox 4 */
+	-webkit-transform:rotateY(720deg); /* Safari and Chrome */
+	-o-transform:rotateY(720deg); /* Opera */
+}
+
+a.underline:hover{
+	text-decoration: underline;
+}
