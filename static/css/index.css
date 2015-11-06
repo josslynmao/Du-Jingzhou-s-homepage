@@ -15,6 +15,7 @@ body{
 a{
 	text-decoration: none;
 	color: #5EB096;
+	font-family: Helvetica;
 }
 
 #banner{
@@ -50,6 +51,7 @@ a{
 #footer{
 	text-align: center;
 	font-size: 15px; 
+	font-family: Helvetica;
 }
 
 
