@@ -1,9 +1,13 @@
-
+@font-face
+{
+	font-family: Super Smash TV;
+	src: url('../font/Super Smash TV.ttf');
+}
 
 body{
 	font-family: Helvetica;
 	background-image: url('../img/robot.png');
-	color: #EB8350;
+    color: #EB8350;
 	font-family: sharp;
 	font-size: 23px;
 }
@@ -14,13 +18,16 @@ a{
 }
 
 #banner{
-	font-size: 56px;
-	padding: 15px 30px;
+	font-family: Super Smash TV; Helvetica;
+	color: #5EB096;
+	font-size: 70px;
+	padding-top: 10px;
+	padding-left: 20px;
 	margin-bottom: 5px;
 }
 
 #header{
-	padding: 10px 50px 10px 20px;
+	padding: 0px 50px 10px 20px;
 	font-size: 23px;
 	text-align: right;
 }
@@ -39,7 +46,7 @@ a{
 
 #footer{
 	text-align: center;
-	font-size: 18px; 
+	font-size: 15px; 
 }
 
 
