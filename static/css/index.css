@@ -46,15 +46,17 @@ a{
 .circle{
 	margin-right: 50px;
 	margin-top: 200px;
-	text-align: center;
+	text-align: left;
 	padding-top: 5px;
-	width: 150px;
-	height: 30px;
+	padding-bottom: 5px;
+	width: 180px;
 	border-radius: 15px;
 	border: 6px solid #5EB096;
 	background-color: #357D6E;
 	color: #FAF9F7;
 	transition: width 1s;
+	display:flex;
+	align-items:center;
 }
 
 .underline{
@@ -62,7 +64,7 @@ a{
 }
 
 div.circle:hover{
-	width: 200px;
+	width: 250px;
 }
 
 a.underline:hover{
