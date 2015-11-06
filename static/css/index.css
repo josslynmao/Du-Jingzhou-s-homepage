@@ -7,8 +7,8 @@
 body{
 	font-family: Helvetica;
 	background-image: url('../img/robot.png');
+	background-repeat: no-repeat;
     color: #EB8350;
-	font-family: sharp;
 	font-size: 23px;
 }
 
@@ -18,7 +18,7 @@ a{
 }
 
 #banner{
-	font-family: Super Smash TV; Helvetica;
+	font-family: Super Smash TV;
 	color: #5EB096;
 	font-size: 70px;
 	padding-top: 10px;
@@ -42,8 +42,9 @@ a{
 	height:450px;
 	margin-bottom: 60px;
 	display: flex;
-	justify-content: flex-end;
-	align-items:flex-end;
+	display: -webkit-flex;
+	-webkit-justify-content: flex-end;
+	-webkit-align-items:flex-end;
 }
 
 #footer{
@@ -65,7 +66,8 @@ a{
 	color: #FAF9F7;
 	transition: width 1s;
 	display:flex;
-	align-items:center;
+	display: -webkit-flex;
+	-webkit-align-items:center;
 }
 
 .underline{
