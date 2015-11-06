@@ -24,12 +24,14 @@ a{
 	padding-top: 10px;
 	padding-left: 20px;
 	margin-bottom: 5px;
+	border-bottom: 2px solid #EB8350;
 }
 
 #header{
 	padding: 0px 50px 10px 20px;
 	font-size: 23px;
 	text-align: right;
+
 }
 
 #container{
