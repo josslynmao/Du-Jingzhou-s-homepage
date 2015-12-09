@@ -35,7 +35,7 @@ body {
 }
 
 #banner{
-    margin-top: 135px;
+    margin-top: 150px;
     color: rgba(255,255,255,0.6);
     font-size: 43px;
  
@@ -134,4 +134,9 @@ body {
     border: 20px solid rgba(0,0,0,.1);
     box-sizing: border-box;
     z-index: -1;
+}
+
+#banner{
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: 0.2s;
 }
