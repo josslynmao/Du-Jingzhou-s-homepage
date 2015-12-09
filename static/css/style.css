@@ -1,3 +1,8 @@
+@font-face{
+    font-family: DJB;
+    src: url('../axisstd-ultralight.otf');
+}
+
 @-webkit-keyframes piston {
     0% { margin-top: 0; }
     50% { margin-top: 80px; }
@@ -30,6 +35,22 @@ body {
     margin: 60px 0 0;
     text-align: center;
     background: linear-gradient(to bottom, coral, tomato);
+}
+
+#banner{
+    margin-top: 135px;
+    color: rgba(255,255,255,0.6);
+    font-size: 43px;
+    font-family: DJB;
+}
+
+#footer{
+    position: absolute;
+    top: 90%;
+    left: 35%;
+    color: rgba(255,255,255,0.6);
+    font-size: 16px;
+    font-family: DJB;
 }
 
 #robot {
