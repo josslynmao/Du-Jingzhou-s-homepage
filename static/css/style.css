@@ -140,3 +140,19 @@ body {
   -webkit-animation-duration: 2s;
   -webkit-animation-delay: 0.2s;
 }
+
+#button{
+    padding: 10px;
+    font-size: 26px;
+    border: 2px solid rgba(255,255,255,0.6);
+    position: absolute;
+    top: 75%;
+    left: 45%;
+    width: 100px;
+    color: rgba(255,255,255,0.6);
+}
+
+a{
+    text-decoration: none;
+     color: rgba(255,255,255,0.6);
+}
