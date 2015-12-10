@@ -278,9 +278,10 @@ p.dummy-text:nth-child(3) {
 	text-align: left;
 	margin: 0 auto;
 	padding: 10px 0;
-	color: #ddd;
+	color: black;
+	background-color: transparent;
 	font-size: 1em;
-	font-family: 'Blokk', Arial, serif;
+	font-family: Helvetica;
 }
 
 .dummy-text:last-child {
