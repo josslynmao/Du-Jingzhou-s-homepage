@@ -14,7 +14,7 @@
 .clearfix:after { clear: both; }
 
 body {
-	background: #f24333;
+	background-color: linear-gradient(to bottom, coral, tomato);
 	color: #fff;
 	font-size: 100%;
 	line-height: 1.25;
@@ -27,6 +27,7 @@ body.demo-2 {
 
 .container {
 	overflow: hidden;
+	height: 700px;
 }
 
 a {
@@ -151,6 +152,10 @@ section {
 	max-width: 300px;
 	text-align: left;
 	font-size: 0.75em;
+}
+
+.guidepic{
+	width: 20%;
 }
 
 @media screen and (max-width: 25em) {
